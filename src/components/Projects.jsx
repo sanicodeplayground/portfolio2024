@@ -6,30 +6,26 @@ function Projects() {
       <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            We didn't reinvent the wheel
+            Connou
           </h2>
+          <h4 classs="text-gray-900 dark:text-white">
+            Junior FrontEnd Developer
+          </h4>
           <p class="mb-4">
-            We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick, but big enough to
-            deliver the scope you want at the pace you need. Small enough to be
-            simple and quick, but big enough to deliver the scope you want at
-            the pace you need.
+            Assembled and lead a team of 8 developers to create core features
+            and integrate third party APIs. Implemented CI/CD pipeline with
+            Typescript type-checking, database migration, code linting and
+            preview deploys.
           </p>
           <p>
-            We are strategists, designers and developers. Innovators and problem
-            solvers. Small enough to be simple and quick.
+            <a href="#">View Project Code</a>
           </p>
         </div>
-        <div class="grid grid-cols-2 gap-4 mt-8">
-          <img
-            class="w-full rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png"
-            alt="office content 1"
-          />
+        <div class="grid ">
           <img
             class="mt-4 w-full lg:mt-10 rounded-lg"
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
-            alt="office content 2"
+            alt="Connou"
           />
         </div>
       </div>
