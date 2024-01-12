@@ -31,9 +31,21 @@ function Bio() {
           <p>
             <a
               href="#"
-              class="text-gray-900 dark:text-white underline underline-offset-8"
+              class="inline-flex items-center ont-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               Keep reading my bio
+              <svg
+                class="ml-2 w-4 h-4"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
             </a>
           </p>
         </div>
@@ -45,7 +57,7 @@ function Bio() {
           />
           <img
             class="mt-4 w-full lg:mt-10 rounded-lg"
-            src="public/images/profilePicture2.jpg"
+            src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Profile"
           />
         </div>
