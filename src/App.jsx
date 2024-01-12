@@ -2,6 +2,10 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Bio from "./components/Bio";
+import BlogCards from "./components/BlogCards";
+import Footer from "./components/Footer";
+import ContactForm from "./components/ContactForm";
+import Projects from "./components/Projects";
 
 const App = () => {
   return (
@@ -9,7 +13,10 @@ const App = () => {
       <Header />
       <Hero />
       <Bio />
-      <h1 className="text-orange-500">Hello world!</h1>
+      <BlogCards />
+      <Projects />
+      <ContactForm />
+      <Footer />
     </div>
   );
 };
