@@ -6,11 +6,11 @@ function Hero() {
       <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div class="max-w-screen-md">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
-            Hi, I’m Sanita | FrontEnd Developer
+            Hi, I’m Sanita, FrontEnd Developer
           </h2>
-          <p class="mb-8 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            I love exploring and creating 🚀 I'm a lifelong learner 🎓 and I
-            might have a thing for traditional Neapolitan Pizza 🍕
+          <p class="mb-8 font-light text-gray-500 sm:text-l  dark:text-gray-300">
+            I love exploring and creating 🚀 I'm a lifelong learner 🎓
+            <br /> and I might have a thing for traditional Neapolitan Pizza 🍕
           </p>
           <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <a
