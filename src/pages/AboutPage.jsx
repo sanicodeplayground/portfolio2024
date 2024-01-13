@@ -1,10 +1,10 @@
 import React from "react";
-import Bio from "../components/Bio";
+import BioExtended from "../components/BioExtended";
 
 function AboutMe() {
   return (
     <div>
-      <Bio />
+      <BioExtended />
     </div>
   );
 }
