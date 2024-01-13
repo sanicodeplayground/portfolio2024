@@ -11,16 +11,14 @@ function Bio() {
           <h4 className="mb-4 text-xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             I love building stuff 📱
           </h4>
-          <div>
-            <ul className="text-gray-900 dark:text-white  text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex list-none  flex-wrap pl-0 flex-row *:py-2 *:px-4 space-x-4">
-              <li>JavaScript</li>
-              <li>Typescript</li>
-              <li>React</li>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Next.js</li>
-            </ul>
-          </div>
+          <ul className="text-gray-900 dark:text-white text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex gap-2 flex-wrap  *:py-2 *:px-2 ">
+            <li>JavaScript</li>
+            <li>Typescript</li>
+            <li>React</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Next.js</li>
+          </ul>
           <p className="my-4">
             I started playing with computers when I was 14 years-old. Since then
             I have been tinkering with all sorts of technologies that in some

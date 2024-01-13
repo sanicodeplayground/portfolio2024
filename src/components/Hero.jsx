@@ -8,17 +8,17 @@ function Hero() {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Hi, I’m Sanita, FrontEnd Developer
           </h2>
-          <p className="mb-8 font-light text-gray-500 sm:text-l  dark:text-gray-300">
+          <p className="mb-8 text-gray-500 dark:text-white font-normal">
             I love exploring and creating 🚀 I'm a lifelong learner 🎓
             <br /> and I might have a thing for traditional Neapolitan Pizza 🍕
           </p>
-          <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+          <div className="flex space-y-4 sm:space-y-0 gap-3 md:gap-3 md:flex-row flex-col">
             <a
               href="https://github.com/sanicodeplayground"
-              className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center justify-center px-4 py-4 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             >
               <svg
-                className="h-7"
+                className="w-6"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -32,11 +32,10 @@ function Hero() {
             </a>
             <a
               href="https://www.linkedin.com/in/sgailu/"
-              className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center justify-center px-4 py-4 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             >
               <svg
-                width="24"
-                height="24"
+                className="w-6"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,13 +56,13 @@ function Hero() {
             </a>
             <a
               href="#"
-              className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center justify-center px-4 py-4 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             >
               <svg
+                className="w-6"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="w-6 h-6"
               >
                 <path
                   fill-rule="evenodd"
