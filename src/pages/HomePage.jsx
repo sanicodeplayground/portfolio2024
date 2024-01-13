@@ -1,22 +1,18 @@
 import React from "react";
-
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Bio from "./components/Bio";
-import BlogCards from "./components/BlogCards";
-import Footer from "./components/Footer";
-import Projects from "./components/Projects";
+import Hero from "../components/Hero";
+import Bio from "../components/Bio";
+import Projects from "../components/Projects";
+import BlogCards from "../components/BlogCards";
 
 const Home = () => {
   return (
     <div>
-      <Header />
       <Hero />
       <Bio />
       <Projects />
       <BlogCards />
-      <Footer />
     </div>
   );
 };
+
 export default Home;

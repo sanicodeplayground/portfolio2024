@@ -24,7 +24,7 @@ function Projects() {
         <div class="grid ">
           <img
             class="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png"
+            src="./images/portfolio/portfolio-connou-app.png"
             alt="Connou"
           />
         </div>
