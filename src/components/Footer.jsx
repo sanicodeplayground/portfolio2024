@@ -112,7 +112,11 @@ function Footer() {
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a href="#" className="hover:underline">
+            <a
+              href="https://github.com/sanicodeplayground/portfolio2024"
+              className="hover:underline"
+              target="_blank"
+            >
               Built with React and Tailwind CSS
             </a>
             . All Rights Reserved.
