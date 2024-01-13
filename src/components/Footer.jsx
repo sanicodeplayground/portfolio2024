@@ -2,64 +2,78 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
-      <div class="mx-auto max-w-screen-xl">
-        <div class="md:flex md:justify-between">
-          <div class="mb-6 md:mb-0">
-            <a href="#" class="flex items-center">
-              <img
-                src="../public/images/logoBrand.svg"
-                class="mr-3 h-8"
-                alt=" Logo"
-              />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
+      <div className="mx-auto max-w-screen-xl">
+        <div className="md:flex md:justify-between">
+          <div className="mb-6 md:mb-0">
+            <a href="#" className="flex items-center">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.996512 4.99209C0 6.94785 0 9.50809 0 14.6286V17.3714C0 22.4919 0 25.0521 0.996512 27.0079C1.87307 28.7283 3.27175 30.1269 4.99209 31.0035C6.94785 32 9.50809 32 14.6286 32H17.3714C22.4919 32 25.0521 32 27.0079 31.0035C28.7283 30.1269 30.1269 28.7283 31.0035 27.0079C32 25.0521 32 22.4919 32 17.3714V14.6286C32 9.50809 32 6.94785 31.0035 4.99209C30.1269 3.27175 28.7283 1.87307 27.0079 0.996512C25.0521 0 22.4919 0 17.3714 0H14.6286C9.50809 0 6.94785 0 4.99209 0.996512C3.27175 1.87307 1.87307 3.27175 0.996512 4.99209Z"
+                  fill="#E8853D"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.7896 13.0033C14.7896 12.2688 15.3901 11.9863 16.3847 11.9863C17.8109 11.9863 19.6125 12.4195 21.0387 13.1916V8.76586C19.4811 8.14437 17.9423 7.89954 16.3847 7.89954C12.5753 7.89954 10.0419 9.89584 10.0419 13.2293C10.0419 18.4272 17.1729 17.5986 17.1729 19.8397C17.1729 20.706 16.4223 20.9885 15.3714 20.9885C13.8138 20.9885 11.8246 20.3482 10.2483 19.4819V23.9641C11.9935 24.7174 13.7575 25.0376 15.3714 25.0376C19.2747 25.0376 21.9582 23.0978 21.9582 19.7267C21.9394 14.1144 14.7896 15.1126 14.7896 13.0033Z"
+                  fill="white"
+                />
+              </svg>
+
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
             </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Links
               </h2>
-              <ul class="text-gray-600 dark:text-gray-400">
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
+              <ul className="text-gray-600 dark:text-gray-400">
+                <li className="mb-4">
+                  <a href="#" className="hover:underline">
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="hover:underline">
+                  <a href="#" className="hover:underline">
                     Contact
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Follow me
               </h2>
-              <ul class="text-gray-600 dark:text-gray-400">
-                <li class="mb-4">
+              <ul className="text-gray-600 dark:text-gray-400">
+                <li className="mb-4">
                   <a
                     href="https://www.linkedin.com/in/sgailu/"
-                    class="hover:underline "
+                    className="hover:underline "
                     target="_blank"
                   >
                     LinkedIn
                   </a>
                 </li>
-                <li class="mb-4">
+                <li className="mb-4">
                   <a
                     href="https://github.com/sanicodeplayground"
-                    class="hover:underline"
+                    className="hover:underline"
                     target="_blank"
                   >
                     Github
                   </a>
                 </li>
-                <li class="mb-4">
+                <li className="mb-4">
                   <a
                     href="https://sanicodeplayground.com/CV.pdf"
-                    class="hover:underline "
+                    className="hover:underline "
                     target="_blank"
                   >
                     My Resume
@@ -68,14 +82,14 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Resources for Developers
               </h2>
-              <ul class="text-gray-600 dark:text-gray-400">
-                <li class="mb-4">
+              <ul className="text-gray-600 dark:text-gray-400">
+                <li className="mb-4">
                   <a
                     href="https://developer.mozilla.org/en-US/"
-                    class="hover:underline"
+                    className="hover:underline"
                     target="_blank"
                   >
                     Mozilla Developer
@@ -84,7 +98,7 @@ function Footer() {
                 <li>
                   <a
                     href="https://react.dev/learn/thinking-in-react"
-                    class="hover:underline"
+                    className="hover:underline"
                     target="_blank"
                   >
                     Thinking in React
@@ -94,23 +108,23 @@ function Footer() {
             </div>
           </div>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <div className="sm:flex sm:items-center sm:justify-between">
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
-            <a href="#" class="hover:underline">
+            <a href="#" className="hover:underline">
               Built with React and Tailwind CSS
             </a>
             . All Rights Reserved.
           </span>
-          <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+          <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
               href="https://github.com/sanicodeplayground"
-              class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+              className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
               target="_blank"
             >
               <svg
-                class="w-5 h-5"
+                className="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"

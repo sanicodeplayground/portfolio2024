@@ -2,38 +2,68 @@ import React from "react";
 
 function Hero() {
   return (
-    <section class="bg-white dark:bg-blue-900">
-      <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
-        <div class="max-w-screen-md">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+    <section className="bg-white dark:bg-blue-900">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+        <div className="max-w-screen-md">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Hi, I’m Sanita, FrontEnd Developer
           </h2>
-          <p class="mb-8 font-light text-gray-500 sm:text-l  dark:text-gray-300">
+          <p className="mb-8 font-light text-gray-500 sm:text-l  dark:text-gray-300">
             I love exploring and creating 🚀 I'm a lifelong learner 🎓
             <br /> and I might have a thing for traditional Neapolitan Pizza 🍕
           </p>
-          <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
+          <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <a
               href="https://github.com/sanicodeplayground"
-              class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             >
-              <img src="./images/iconGithub.svg" alt="Github icon" />
+              <svg
+                className="h-7"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                  clip-rule="evenodd"
+                />
+              </svg>
             </a>
             <a
               href="https://www.linkedin.com/in/sgailu/"
-              class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             >
-              <img src="./images/iconLinkedIn.svg" alt="LinkedIn icon" />
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.37614 5.51405C6.37614 6.90252 5.17265 8.0281 3.68807 8.0281C2.20349 8.0281 1 6.90252 1 5.51405C1 4.12558 2.20349 3 3.68807 3C5.17265 3 6.37614 4.12558 6.37614 5.51405Z"
+                  fill="white"
+                />
+                <path
+                  d="M1.3676 9.87604H5.96259V23.8H1.3676V9.87604Z"
+                  fill="white"
+                />
+                <path
+                  d="M13.3605 9.87604H8.76554V23.8H13.3605C13.3605 23.8 13.3605 19.4165 13.3605 16.6758C13.3605 15.0308 13.9222 13.3785 16.1635 13.3785C18.6964 13.3785 18.6811 15.5313 18.6693 17.1991C18.6539 19.3792 18.6907 21.6039 18.6907 23.8H23.2857V16.4512C23.2468 11.7588 22.0241 9.5967 18.0015 9.5967C15.6126 9.5967 14.1318 10.6812 13.3605 11.6624V9.87604Z"
+                  fill="white"
+                />
+              </svg>
             </a>
             <a
               href="#"
-              class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                class="w-6 h-6"
+                className="w-6 h-6"
               >
                 <path
                   fill-rule="evenodd"

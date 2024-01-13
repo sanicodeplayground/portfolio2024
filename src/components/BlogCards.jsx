@@ -2,22 +2,22 @@ import React from "react";
 
 function BlogCards() {
   return (
-    <section class="bg-white dark:bg-gray-900">
-      <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-          <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+    <section className="bg-white dark:bg-gray-900">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+          <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Blog
           </h2>
-          <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
             Things I've been learning
           </p>
         </div>
-        <div class="grid gap-8 lg:grid-cols-2">
-          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <div class="flex justify-between items-center mb-5 text-gray-500">
-              <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+        <div className="grid gap-8 lg:grid-cols-2">
+          <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex justify-between items-center mb-5 text-gray-500">
+              <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                 <svg
-                  class="mr-1 w-3 h-3"
+                  className="mr-1 w-3 h-3"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -26,23 +26,23 @@ function BlogCards() {
                 </svg>
                 Tutorial
               </span>
-              <span class="text-sm">2 days ago</span>
+              <span className="text-sm">2 days ago</span>
             </div>
-            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">Install Tailwind CSS in React</a>
             </h2>
-            <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
+            <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
               Learn how to install Tailwind CSS, a utility-firstframework, in
               your React project using Vite.
             </p>
 
             <a
               href="#"
-              class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
+              className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               Read more
               <svg
-                class="ml-2 w-4 h-4"
+                className="ml-2 w-4 h-4"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,11 +55,11 @@ function BlogCards() {
               </svg>
             </a>
           </article>
-          <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <div class="flex justify-between items-center mb-5 text-gray-500">
-              <span class="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+          <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex justify-between items-center mb-5 text-gray-500">
+              <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                 <svg
-                  class="mr-1 w-3 h-3"
+                  className="mr-1 w-3 h-3"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"
@@ -73,21 +73,21 @@ function BlogCards() {
                 </svg>
                 Article
               </span>
-              <span class="text-sm">5 days ago</span>
+              <span className="text-sm">5 days ago</span>
             </div>
-            <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <a href="#">Installing React with Vite in 1 min</a>
             </h2>
-            <p class="mb-5 font-light text-gray-500 dark:text-gray-400">
+            <p className="mb-5 font-light text-gray-500 dark:text-gray-400">
               Watch 1 minute video and learn how to install React with Vite.
             </p>
             <a
               href="#"
-              class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
+              className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               Read more
               <svg
-                class="ml-2 w-4 h-4"
+                className="ml-2 w-4 h-4"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
