@@ -36,13 +36,13 @@ function Footer() {
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
                 <li className="mb-4">
-                  <a href="#" className="hover:underline">
-                    Blog
+                  <a href="/projects" className="hover:underline">
+                    Projects
                   </a>
                 </li>
-                <li>
-                  <a href="#" className="hover:underline">
-                    Contact
+                <li className="mb-4">
+                  <a href="/blog" className="hover:underline">
+                    Blog
                   </a>
                 </li>
               </ul>
