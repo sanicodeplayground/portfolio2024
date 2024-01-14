@@ -1,5 +1,3 @@
-import React from "react";
-
 function Bio() {
   return (
     <section className="bg-white dark:bg-gray-900">

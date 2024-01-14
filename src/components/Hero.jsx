@@ -1,5 +1,3 @@
-import React from "react";
-
 function Hero() {
   return (
     <section className="bg-white dark:bg-blue-900">
