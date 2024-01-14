@@ -18,15 +18,14 @@ function Bio() {
             <li>Next.js</li>
           </ul>
           <p className="my-4">
-            I started playing with computers when I was 14 years-old. Since then
-            I have been tinkering with all sorts of technologies that in some
-            way or another led me to play with music, photography, and 3D sound.
-            My background in Law and Business equips me with good
-            problem-solving and communication skills.
+            I'm a FrontEnd developer with a love for technology and creativity,
+            currently working at Connou. My Masters in Law and Business have
+            equipped me with excellent problem-solving and communication skills.
+            I am eager to learn and adapt in the ever-evolving tech world.
           </p>
           <p>
             <a
-              href="#"
+              href="/about"
               className="inline-flex items-center ont-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               Keep reading my bio

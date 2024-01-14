@@ -9,7 +9,6 @@ function Projects() {
           <h3 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Connou
           </h3>
-
           <h4 className="text-gray-900 dark:text-gray-100 font-bold">
             Junior FrontEnd Developer
           </h4>
@@ -52,11 +51,13 @@ function Projects() {
           </a>
         </div>
         <div className="grid ">
-          <img
-            className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="./images/portfolio/portfolio-connou-app.png"
-            alt="Connou"
-          />
+          <a href="https://connou.app/" target="_blank">
+            <img
+              className="mt-4 w-full lg:mt-10 rounded-lg"
+              src="./images/portfolio/portfolio-connou-app.png"
+              alt="Connou"
+            />
+          </a>
         </div>
       </div>
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
@@ -64,7 +65,6 @@ function Projects() {
           <h3 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Todo List App
           </h3>
-
           <h4 className="text-gray-900 dark:text-gray-100 font-bold">
             Personal project
           </h4>
@@ -134,11 +134,13 @@ function Projects() {
           </div>
         </div>
         <div className="grid ">
-          <img
-            className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="./images/portfolio/portfolio-todo-list.png"
-            alt="ToDo"
-          />
+          <a href="https://todo-list-app-92j8.onrender.com/" target="_blank">
+            <img
+              className="mt-4 w-full lg:mt-10 rounded-lg"
+              src="./images/portfolio/portfolio-todo-list.png"
+              alt="ToDo"
+            />
+          </a>
         </div>
       </div>
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
@@ -216,11 +218,13 @@ function Projects() {
           </div>
         </div>
         <div className="grid ">
-          <img
-            className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="./images/portfolio/portfolio-recipes.jpg"
-            alt="Recipe Platform"
-          />
+          <a href="https://tailwindcss-shop.vercel.app/" target="_blank">
+            <img
+              className="mt-4 w-full lg:mt-10 rounded-lg"
+              src="./images/portfolio/portfolio-recipes.jpg"
+              alt="Recipe Platform"
+            />
+          </a>
         </div>
       </div>
     </section>
