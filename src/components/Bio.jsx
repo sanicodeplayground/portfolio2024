@@ -3,7 +3,7 @@ function Bio() {
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <div className=" ">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             My Skills
           </h2>
@@ -27,7 +27,7 @@ function Bio() {
           <p>
             <Link
               to="/about"
-              className="inline-flex items-center ont-medium text-blue-600 dark:text-blue-500 hover:underline"
+              className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               Keep reading my bio
               <svg

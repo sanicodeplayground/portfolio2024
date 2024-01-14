@@ -5,20 +5,20 @@ function Projects() {
         Projects
       </h2>
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <div className="font-light  sm:text-lg ">
           <h3 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Connou
           </h3>
-          <h4 className="text-gray-900 dark:text-gray-100 font-bold">
+          <h4 className="mb-4 text-gray-900 dark:text-gray-100 font-bold">
             Junior FrontEnd Developer
           </h4>
-          <ul className="text-gray-900 dark:text-white text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex gap-2 flex-wrap  *:py-2 *:px-2 py-4 ">
+          <ul className="text-gray-900 dark:text-white text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex gap-2 flex-wrap  *:py-2 *:px-2">
             <li>Typescript</li>
             <li>React</li>
             <li>Docker</li>
             <li>Next.js</li>
           </ul>
-          <p className="mb-6 mt-6">
+          <p className="my-4">
             In my role, I'm building a responsive web app, handle the logic of
             the pages, ensure its proper functionality, debug any issues, and
             write unit tests. Most of the time I'm using Typescript and React.
@@ -61,19 +61,19 @@ function Projects() {
         </div>
       </div>
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <div className="font-light  sm:text-lg ">
           <h3 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Todo List App
           </h3>
-          <h4 className="text-gray-900 dark:text-gray-100 font-bold">
+          <h4 className="mb-4 text-gray-900 dark:text-gray-100 font-bold">
             Personal project
           </h4>
-          <ul className="text-gray-900 dark:text-white text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex gap-2 flex-wrap  *:py-2 *:px-2 py-4 ">
+          <ul className="text-gray-900 dark:text-white text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex gap-2 flex-wrap  *:py-2 *:px-2">
             <li>Node.js</li>
             <li>Express</li>
             <li>EJS</li>
           </ul>
-          <p className="mb-6 mt-6">
+          <p className="my-4">
             A dynamic web application built with Node.js and Express, featuring
             a user-friendly interface rendered with EJS templates. This project
             allows users to manage their daily tasks.
@@ -144,20 +144,20 @@ function Projects() {
         </div>
       </div>
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <div className="font-light  sm:text-lg ">
           <h3 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Recipe Platform
           </h3>
 
-          <h4 className="text-gray-900 dark:text-gray-100 font-bold">
+          <h4 className="mb-4 text-gray-900 dark:text-gray-100 font-bold">
             Personal project
           </h4>
-          <ul className="text-gray-900 dark:text-white text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex gap-2 flex-wrap  *:py-2 *:px-2 py-4 ">
+          <ul className="text-gray-900 dark:text-white text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex gap-2 flex-wrap  *:py-2 *:px-2">
             <li>Vercel</li>
             <li>JavaScript</li>
             <li>Tailwind v3.4</li>
           </ul>
-          <p className="mb-6 mt-6">
+          <p className="my-4">
             Platform dedicated to plant-based recipes, where users can explore a
             range of delicious vegetarian dishes. Build using Tailwind CSS and
             deployed using Vercel.

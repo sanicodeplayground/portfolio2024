@@ -6,7 +6,7 @@ function Hero() {
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Hi, I’m Sanita, FrontEnd Developer
           </h2>
-          <p className="mb-8 text-gray-500 dark:text-white font-normal">
+          <p className="mb-8">
             I love exploring and creating 🚀 I'm a lifelong learner 🎓
             <br /> and I might have a thing for traditional Neapolitan Pizza 🍕
           </p>
