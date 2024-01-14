@@ -48,7 +48,7 @@ function Bio() {
         <div className="grid grid-cols-2 gap-4 mt-8">
           <img
             className="w-full rounded-lg"
-            src="public/images/profilePicture.jpg"
+            src="./images/profilePicture.jpg"
             alt="Profile"
           />
           <img
