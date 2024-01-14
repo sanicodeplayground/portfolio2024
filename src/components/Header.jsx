@@ -16,7 +16,7 @@ function Header() {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <svg
-              className="h-7 mr-4"
+              className="h-7"
               viewBox="0 0 32 32"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
