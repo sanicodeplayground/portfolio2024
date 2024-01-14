@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Bio() {
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -24,8 +25,8 @@ function Bio() {
             I am eager to learn and adapt in the ever-evolving tech world.
           </p>
           <p>
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className="inline-flex items-center ont-medium text-blue-600 dark:text-blue-500 hover:underline"
             >
               Keep reading my bio
@@ -41,7 +42,7 @@ function Bio() {
                   clip-rule="evenodd"
                 ></path>
               </svg>
-            </a>
+            </Link>
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 mt-8">

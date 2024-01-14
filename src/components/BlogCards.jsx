@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function BlogCards() {
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -11,8 +12,8 @@ function BlogCards() {
           </p>
         </div>
         <div className="grid gap-8 lg:grid-cols-2">
-          <a
-            href="/"
+          <Link
+            to="/BlogArticle1"
             className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-50/70 dark:hover:bg-slate-800/50"
           >
             <article>
@@ -54,9 +55,9 @@ function BlogCards() {
                 </svg>
               </p>
             </article>
-          </a>
-          <a
-            href="/"
+          </Link>
+          <Link
+            to="/BlogArticle2"
             className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-50/70 dark:hover:bg-slate-800/50"
           >
             <article>
@@ -101,7 +102,7 @@ function BlogCards() {
                 </svg>
               </p>
             </article>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -7,11 +7,15 @@ import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import BlogPage from "./pages/BlogPage";
+import BlogArticle1 from "./pages/BlogArticle1";
+import BlogArticle2 from "./pages/BlogArticle2";
 import ContactPage from "./pages/ContactPage";
+
+const basename = process.env.NODE_ENV === "production" ? "/portfolio2024" : "/";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={basename}>
       <div>
         <Header />
         <Routes>
@@ -19,6 +23,8 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blogArticle1" element={<BlogArticle1 />} />
+          <Route path="/blogArticle2" element={<BlogArticle2 />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer />
