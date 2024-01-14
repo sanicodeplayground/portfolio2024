@@ -1,7 +1,7 @@
 function BioExtended() {
   return (
     <section className="bg-white dark:bg-gray-900">
-      <article className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md text-gray-900 dark:text-slate-400 leading-loose [&>p]:mt-3">
+      <article className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md  leading-loose [&>p]:mt-3">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
           I have always loved tech
         </h2>
