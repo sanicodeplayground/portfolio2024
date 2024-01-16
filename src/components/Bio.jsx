@@ -4,10 +4,10 @@ function Bio() {
     <section className="bg-white dark:bg-gray-900">
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className=" ">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-4xl  font-extrabold text-gray-900 dark:text-white">
             My Skills
           </h2>
-          <h4 className="mb-4 text-xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h4 className="mb-4 text-xl  font-extrabold text-gray-900 dark:text-white">
             I love building stuff 📱
           </h4>
           <ul className="text-gray-900 dark:text-white text-sm font-normal  *:bg-cyan-200 *:dark:bg-cyan-900 *:rounded-md flex gap-2 flex-wrap  *:py-2 *:px-2 ">

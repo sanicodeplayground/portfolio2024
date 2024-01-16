@@ -3,14 +3,14 @@ function Hero() {
     <section className="bg-slate-50 dark:bg-blue-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
             Hi, I’m Sanita, FrontEnd Developer
           </h2>
           <p className="mb-8">
             I love exploring and creating 🚀 I'm a lifelong learner 🎓
             <br /> and I might have a thing for traditional Neapolitan Pizza 🍕
           </p>
-          <div className="flex space-y-4 sm:space-y-0 gap-3 md:gap-3 md:flex-row flex-col">
+          <div className="flex sm:space-y-0 gap-3 md:gap-3 flex-1">
             <a
               href="https://github.com/sanicodeplayground"
               target="_blank"
