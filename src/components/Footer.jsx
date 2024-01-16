@@ -95,13 +95,22 @@ function Footer() {
                     Mozilla Developer
                   </a>
                 </li>
-                <li>
+                <li className="mb-4">
                   <a
                     href="https://react.dev/learn/thinking-in-react"
                     className="hover:underline"
                     target="_blank"
                   >
                     Thinking in React
+                  </a>
+                </li>
+                <li className="mb-4">
+                  <a
+                    href="https://dev.to/"
+                    className="hover:underline"
+                    target="_blank"
+                  >
+                    Dev community
                   </a>
                 </li>
               </ul>

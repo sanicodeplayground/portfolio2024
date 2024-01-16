@@ -2,7 +2,7 @@ function BioExtended() {
   return (
     <section className="bg-white dark:bg-gray-900">
       <article className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md  leading-loose [&>p]:mt-3">
-        <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h2 className="mb-4 text-4xl  font-extrabold text-gray-900 dark:text-white">
           I have always loved tech
         </h2>
         <p>
@@ -15,7 +15,7 @@ function BioExtended() {
           </a>
         </p>
 
-        <h3 className="mb-4 mt-8 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h3 className="mb-4 mt-8 text-3xl  font-extrabold text-gray-900 dark:text-white">
           My quick story
         </h3>
         <p>
@@ -35,7 +35,7 @@ function BioExtended() {
           expected from a quality product.
         </p>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-800" />
-        <h3 className="mb-4 mt-8 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h3 className="mb-4 mt-8 text-3xl  font-extrabold text-gray-900 dark:text-white">
           As a developer
         </h3>
         <p>
@@ -55,7 +55,7 @@ function BioExtended() {
           every time. I’m always excited for the next challenge!
         </p>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-800" />
-        <h3 className="mb-4 mt-8 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h3 className="mb-4 mt-8 text-3xl  font-extrabold text-gray-900 dark:text-white">
           As a person
         </h3>
         <p>
@@ -69,7 +69,7 @@ function BioExtended() {
           career in one way or another.
         </p>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-800" />
-        <h3 className="mb-4 mt-8 text-3xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <h3 className="mb-4 mt-8 text-3xl  font-extrabold text-gray-900 dark:text-white">
           As a colleague
         </h3>
         <p>

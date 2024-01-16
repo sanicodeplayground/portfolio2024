@@ -16,7 +16,7 @@ const basename = process.env.NODE_ENV === "production" ? "/portfolio2024" : "/";
 const App = () => {
   return (
     <Router basename={basename}>
-      <div class="text-slate-500 dark:text-slate-200">
+      <div class="text-slate-500 dark:text-slate-400">
         <Header />
         <div>
           <Routes>
