@@ -11,7 +11,7 @@ import BlogArticle1 from "./pages/BlogArticle1";
 import BlogArticle2 from "./pages/BlogArticle2";
 import ContactPage from "./pages/ContactPage";
 
-const basename = process.env.NODE_ENV === "production" ? "/portfolio2024" : "/";
+const basename = process.env.NODE_ENV === "production" ? "/" : "/";
 
 const App = () => {
   return (
