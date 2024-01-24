@@ -2,7 +2,7 @@
   "name": "portfolio2024",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sanicodeplayground.github.io/portfolio2024/",
+  "homepage": "https://portfolio2024-3gb8.vercel.app/",
   "type": "module",
   "scripts": {
     "dev": "vite",
