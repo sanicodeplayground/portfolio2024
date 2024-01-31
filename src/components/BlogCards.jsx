@@ -39,7 +39,7 @@ function BlogCards() {
                 your React project using Vite.
               </p>
 
-              <p className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+              <p className="inline-flex items-center font-medium text-blue-600 dark:text-blue-300 hover:underline">
                 Read more
                 <svg
                   className="ml-2 w-4 h-4"
@@ -83,7 +83,7 @@ function BlogCards() {
                 plugin.
               </p>
 
-              <p className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+              <p className="inline-flex items-center font-medium text-blue-600 dark:text-blue-300 hover:underline">
                 Read more
                 <svg
                   className="ml-2 w-4 h-4"
