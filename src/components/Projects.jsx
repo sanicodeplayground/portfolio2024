@@ -6,10 +6,14 @@ function Projects() {
       </h2>
 
       {/* projects grid */}
-      <ul className="grid max-w-[26rem] sm:max-w-[52.5rem] px-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto gap-6 lg:gap-y-8 xl:gap-x-8 lg:px-8 lg:max-w-6xl">
+      <ul className="grid max-w-[26rem] sm:max-w-[52.5rem] px-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto gap-6 lg:gap-y-8 xl:gap-x-8 lg:px-8 lg:max-w-6xl pb-20">
         <li className="rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
-            <a href="https://tailwindcss-shop.vercel.app/" target="_blank">
+            <a
+              href="https://tailwindcss-shop.vercel.app/"
+              target="_blank"
+              title="Connou website"
+            >
               <img
                 src="./images/portfolio/portfolioConnou.jpg"
                 alt="Portfolio"
@@ -33,6 +37,7 @@ function Projects() {
                 class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 text-blue-500 bg-blue-100 hover:bg-blue-200 hover:text-blue-600 focus:ring-indigo-500 dark:bg-blue-800  dark:hover:bg-blue-600  dark:focus:ring-slate-500 mt-2 dark:text-slate-300 dark:hover:text-slate-100"
                 href="https://tailwindcss-shop.vercel.app/"
                 target="_blank"
+                title="Preview Connou website"
               >
                 Preview<span class="sr-only"></span>
                 <svg
@@ -55,7 +60,11 @@ function Projects() {
 
         <li className=" rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
-            <a href="https://tailwindcss-shop.vercel.app/" target="_blank">
+            <a
+              href="https://tailwindcss-shop.vercel.app/"
+              target="_blank"
+              title="Preview Veggie website"
+            >
               <img
                 src="./images/portfolio/portfolioVerde.jpg"
                 alt="portfolioVerde"
@@ -78,6 +87,7 @@ function Projects() {
                 class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 text-blue-500 bg-blue-100 hover:bg-blue-200 hover:text-blue-600 focus:ring-indigo-500 dark:bg-blue-800  dark:hover:bg-blue-600  dark:focus:ring-slate-500 mt-2 dark:text-slate-300 dark:hover:text-slate-100"
                 href="https://tailwindcss-shop.vercel.app/"
                 target="_blank"
+                title="Preview Veggie website"
               >
                 Preview<span class="sr-only"></span>
                 <svg
@@ -98,6 +108,7 @@ function Projects() {
                 class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
                 href="https://github.com/sanicodeplayground/tailwindcss"
                 target="_blank"
+                title="Github Veggie website"
               >
                 Github<span class="sr-only"></span>
                 <svg
@@ -123,6 +134,7 @@ function Projects() {
             <a
               href="https://sanicodeplayground.github.io/solicitor-website/"
               target="_blank"
+              title="Preview Corporate website"
             >
               <img
                 src="./images/portfolio/portfolioSolicitors.jpg"
@@ -147,6 +159,7 @@ function Projects() {
                 class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 text-blue-500 bg-blue-100 hover:bg-blue-200 hover:text-blue-600 focus:ring-indigo-500 dark:bg-blue-800  dark:hover:bg-blue-600  dark:focus:ring-slate-500 mt-2 dark:text-slate-300 dark:hover:text-slate-100"
                 href="https://sanicodeplayground.github.io/solicitor-website/"
                 target="_blank"
+                title="Preview Corporate website"
               >
                 Preview<span class="sr-only"></span>
                 <svg
@@ -167,6 +180,7 @@ function Projects() {
                 class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
                 href="https://github.com/sanicodeplayground/solicitor-website"
                 target="_blank"
+                title="Github Corporate website"
               >
                 Github<span class="sr-only"></span>
                 <svg

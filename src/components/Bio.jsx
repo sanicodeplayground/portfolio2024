@@ -27,7 +27,7 @@ function Bio() {
           <p>
             <Link
               to="/about"
-              className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
+              className="inline-flex items-center font-medium text-blue-600 dark:text-blue-300 hover:underline"
             >
               Keep reading my bio
               <svg
