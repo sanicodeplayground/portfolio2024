@@ -16,19 +16,17 @@ const basename = process.env.NODE_ENV === "production" ? "/" : "/";
 const App = () => {
   return (
     <Router basename={basename}>
-      <div class="text-slate-700 dark:text-slate-400">
+      <div class="text-slate-700 dark:text-slate-300">
         <Header />
-        <div>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/projects" element={<ProjectsPage />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blogArticle1" element={<BlogArticle1 />} />
-            <Route path="/blogArticle2" element={<BlogArticle2 />} />
-            <Route path="/contact" element={<ContactPage />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/blogArticle1" element={<BlogArticle1 />} />
+          <Route path="/blogArticle2" element={<BlogArticle2 />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
         <Footer />
       </div>
     </Router>
