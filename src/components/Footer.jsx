@@ -3,10 +3,15 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="my-0 bg-slate-100 sm:p-6 dark:bg-gray-800 ">
-      <div className="mx-auto max-w-screen-xl pt-10">
+      <div className="py-8 px-4  mx-auto max-w-screen-xl pt-10">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-            <a href="#" className="flex items-center">
+            <a
+              href="#"
+              className="flex items-center"
+              aria-label="Link to home page"
+              title="Home page"
+            >
               <svg
                 width="32"
                 height="32"
@@ -25,8 +30,6 @@ function Footer() {
                   fill="white"
                 />
               </svg>
-
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
             </a>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -135,6 +138,8 @@ function Footer() {
               href="https://github.com/sanicodeplayground"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
               target="_blank"
+              title="Link to Github profile"
+              aria-label="Link to Github profile"
             >
               <svg
                 className="w-5 h-5"
