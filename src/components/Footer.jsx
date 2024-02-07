@@ -109,11 +109,13 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="https://dev.to/"
+                    href="https://wave.webaim.org/"
                     className="hover:underline"
                     target="_blank"
+                    aria-label="Accessibility check resource"
+                    title="Accessibility check resource"
                   >
-                    Dev community
+                    Accessibility check
                   </a>
                 </li>
               </ul>
