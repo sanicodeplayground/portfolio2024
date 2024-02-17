@@ -210,7 +210,7 @@ function Projects() {
             >
               <img
                 src="./images/portfolio/portfolioGameDice.jpg"
-                alt="Portfolio Corporate Solicitors Website"
+                alt="Portfolio Dice Game"
                 className="w-full h-full transition ease-in-out duration-1000 object-cover hover:scale-150"
               />
             </a>
@@ -279,8 +279,8 @@ function Projects() {
               title="Newsletter Validation"
             >
               <img
-                src="./images/portfolio/portfolioGameDice.jpg"
-                alt="Portfolio Corporate Solicitors Website"
+                src="./images/portfolio/portfolioNewsletterValidation.jpg"
+                alt="Portfolio Newsletter Validation"
                 className="w-full h-full transition ease-in-out duration-1000 object-cover hover:scale-150"
               />
             </a>
