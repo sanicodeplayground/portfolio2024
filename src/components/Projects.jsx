@@ -101,7 +101,7 @@ function Projects() {
                 </svg>
               </a>
               <a
-                class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
+                class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 dark:border-slate-700 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
                 href="https://github.com/sanicodeplayground/tailwindcss"
                 target="_blank"
                 title="Github Veggie website"
@@ -173,7 +173,7 @@ function Projects() {
                 </svg>
               </a>
               <a
-                class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
+                class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 dark:border-slate-700 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
                 href="https://github.com/sanicodeplayground/solicitor-website"
                 target="_blank"
                 title="Github Corporate website"
@@ -243,7 +243,7 @@ function Projects() {
                 </svg>
               </a>
               <a
-                class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
+                class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 dark:border-slate-700 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
                 href="https://github.com/sanicodeplayground/js-dice-game"
                 target="_blank"
                 title="Github Corporate website"
@@ -269,7 +269,11 @@ function Projects() {
 
         <li className=" rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
-            <a href="#" target="_blank" title="Newsletter Validation">
+            <a
+              href="https://react-newsletter-sign-up-rho.vercel.app/"
+              target="_blank"
+              title="Newsletter Validation"
+            >
               <img
                 src="./images/portfolio/portfolioNewsletterValidation.jpg"
                 alt="Portfolio Newsletter Validation"
@@ -282,15 +286,16 @@ function Projects() {
               Newsletter Validation
             </h3>
             <ul className="list-disc list-inside my-4">
-              <li>React </li>
-              <li>Form Input validation</li>
+              <li>React state hook </li>
+              <li>Form input validation</li>
               <li>Error handling</li>
               <li>Success message</li>
+              <li>Vercel deployment</li>
             </ul>
             <div className="grid">
               <a
                 class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 text-blue-500 bg-blue-100 hover:bg-blue-200 hover:text-blue-600 focus:ring-indigo-500 dark:bg-blue-800  dark:hover:bg-blue-600  dark:focus:ring-slate-500 mt-2 dark:text-slate-300 dark:hover:text-slate-100"
-                href="#"
+                href="https://react-newsletter-sign-up-rho.vercel.app/"
                 target="_blank"
                 title="Preview"
               >
@@ -310,10 +315,10 @@ function Projects() {
                 </svg>
               </a>
               <a
-                class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
-                href="#"
+                class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 dark:border-slate-700 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
+                href="https://github.com/sanicodeplayground/react-newsletter-sign-up-form"
                 target="_blank"
-                title="Github Corporate website"
+                title="Github project"
               >
                 Github<span class="sr-only"></span>
                 <svg
