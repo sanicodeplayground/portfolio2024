@@ -9,11 +9,7 @@ function Projects() {
       <ul className="grid max-w-[26rem] sm:max-w-[52.5rem] px-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto gap-6 lg:gap-y-8 xl:gap-x-8 lg:px-8 lg:max-w-6xl pb-20">
         <li className="rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
-            <a
-              href="https://tailwindcss-shop.vercel.app/"
-              target="_blank"
-              title="Connou website"
-            >
+            <a href="https://connou.app" target="_blank" title="Connou">
               <img
                 src="./images/portfolio/portfolioConnou.jpg"
                 alt="Portfolio"
@@ -273,11 +269,7 @@ function Projects() {
 
         <li className=" rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
-            <a
-              href="https://sanicodeplayground.github.io/solicitor-website/"
-              target="_blank"
-              title="Newsletter Validation"
-            >
+            <a href="#" target="_blank" title="Newsletter Validation">
               <img
                 src="./images/portfolio/portfolioNewsletterValidation.jpg"
                 alt="Portfolio Newsletter Validation"
@@ -290,7 +282,7 @@ function Projects() {
               Newsletter Validation
             </h3>
             <ul className="list-disc list-inside my-4">
-              <li>React Hook </li>
+              <li>React </li>
               <li>Form Input validation</li>
               <li>Error handling</li>
               <li>Success message</li>
@@ -298,9 +290,9 @@ function Projects() {
             <div className="grid">
               <a
                 class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 text-blue-500 bg-blue-100 hover:bg-blue-200 hover:text-blue-600 focus:ring-indigo-500 dark:bg-blue-800  dark:hover:bg-blue-600  dark:focus:ring-slate-500 mt-2 dark:text-slate-300 dark:hover:text-slate-100"
-                href="https://sanicodeplayground.github.io/solicitor-website/"
+                href="#"
                 target="_blank"
-                title="Preview Corporate Website"
+                title="Preview"
               >
                 Preview<span class="sr-only"></span>
                 <svg
@@ -319,7 +311,7 @@ function Projects() {
               </a>
               <a
                 class="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
-                href="https://github.com/sanicodeplayground/solicitor-website"
+                href="#"
                 target="_blank"
                 title="Github Corporate website"
               >
