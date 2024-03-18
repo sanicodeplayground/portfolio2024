@@ -16,7 +16,7 @@ function Hero() {
               target="_blank"
               aria-labelledby="GithubLogo"
               title="Github profile"
-              className="inline-flex items-center justify-center px-4 py-4 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:focus:ring-gray-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-orange-500"
+              className="inline-flex items-center justify-center px-4 py- text-gray-900 border border-gray-300 rounded-full focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-slate-500 dark:focus:ring-gray-600 transition ease-in-out   hover:scale-110 duration-300"
             >
               <svg
                 className="w-6"
@@ -36,7 +36,7 @@ function Hero() {
               target="_blank"
               aria-labelledby="LinkedInLogo"
               title="LinkIn profile"
-              className="inline-flex items-center justify-center px-4 py-4 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:focus:ring-gray-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-orange-500"
+              className="inline-flex items-center justify-center px-4 py-4 text-gray-900 border border-gray-300 rounded-full focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-slate-500 dark:focus:ring-gray-600 transition ease-in-out   hover:scale-110 duration-300"
             >
               <svg
                 className="w-6"
@@ -50,11 +50,11 @@ function Hero() {
               </svg>
             </a>
             <a
-              href="https://sanicodeplayground.com/CV.pdf"
+              href="./images/Sanita-Gailuma-2024.pdf"
               target="_blank"
-              aria-labelledby="DownloadResume"
+              aria-labelledby="Download Resume"
               title="Download Sanita Resume"
-              className="inline-flex items-center justify-center px-4 py-4 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:focus:ring-gray-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-orange-500"
+              className="inline-flex items-center justify-center px-4 py-4 text-gray-900 border border-gray-300 rounded-full focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-slate-500 dark:focus:ring-gray-600 transition ease-in-out   hover:scale-110 duration-300"
             >
               <svg
                 className="w-6"

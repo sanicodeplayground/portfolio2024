@@ -75,7 +75,7 @@ function Footer() {
                 </li>
                 <li className="mb-4">
                   <a
-                    href="https://sanicodeplayground.com/CV.pdf"
+                    href="./images/Sanita-Gailuma-2024.pdf"
                     className="hover:underline "
                     target="_blank"
                   >

@@ -62,7 +62,7 @@ function BioExtended() {
         <p>Let's have a chat! I'd love to hear from you ☁️</p>
         <p>
           <a
-            href="https://sanicodeplayground.com/CV.pdf"
+            href="./images/Sanita-Gailuma-2024.pdf"
             target="_blank"
             className="inline-flex items-center ont-medium text-blue-600 dark:text-blue-500 hover:underline"
           >
