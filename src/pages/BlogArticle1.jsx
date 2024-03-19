@@ -6,8 +6,8 @@ function BlogArticle() {
   const markdownContent3 = "npm run dev";
 
   return (
-    <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
-      <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
+    <main className="bg-white dark:bg-gray-900">
+      <div className="container py-16 antialiased">
         <article className="article">
           <header className="mb-4 lg:mb-6 not-format">
             <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-slate-50">
