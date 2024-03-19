@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="my-0 bg-slate-100 sm:p-6 dark:bg-gray-800 ">
+    <footer className="my-0 bg-slate-100 sm:p-6 dark:bg-gray-800">
       <div className="container pt-16">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">

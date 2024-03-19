@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <header>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900">
+      <nav>
         <div className="container flex flex-wrap items-center justify-between py-4">
           <Link
             to="/"

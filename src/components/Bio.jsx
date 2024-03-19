@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Bio() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section>
       <div className="container gap-16 items-center py-16 lg:grid lg:grid-cols-2">
         <div className=" ">
           <h2 className="mb-4 text-4xl  font-extrabold text-gray-900 dark:text-white">
@@ -48,12 +48,12 @@ function Bio() {
         <div className="grid grid-cols-2 gap-4 mt-8">
           <img
             className="w-full rounded-lg"
-            src="./images/profilePicture.jpg"
+            src="https://ik.imagekit.io/rk9j9vsvji/sanicodeplayground/profilePicture.jpg?updatedAt=1710873617214"
             alt="Profile"
           />
           <img
             className="mt-4 w-full lg:mt-10 rounded-lg"
-            src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://ik.imagekit.io/rk9j9vsvji/sanicodeplayground/hands.avif?updatedAt=1710873617353"
             alt="Profile"
           />
         </div>
