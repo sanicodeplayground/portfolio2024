@@ -1,6 +1,6 @@
 function BioExtended() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section>
       <article className="container py-16 mx-auto max-w-screen-md  leading-loose [&>p]:mt-3">
         <h2 className="mb-4 text-4xl  font-extrabold text-gray-900 dark:text-white">
           About me

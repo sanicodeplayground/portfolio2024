@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section>
       
       <div className="container py-16">
       

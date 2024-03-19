@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function BlogCards() {
   return (
-    <section className="bg-white dark:bg-gray-900 ">
+    <section>
       <div className="container py-16">
         <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
           <h2 className="mb-4 text-3xl lg:text-4xl  font-extrabold text-gray-900 dark:text-white">
