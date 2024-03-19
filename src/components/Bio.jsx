@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function Bio() {
   return (
     <section className="bg-white dark:bg-gray-900">
-      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div className="container gap-16 items-center py-16 lg:grid lg:grid-cols-2">
         <div className=" ">
           <h2 className="mb-4 text-4xl  font-extrabold text-gray-900 dark:text-white">
             My Skills

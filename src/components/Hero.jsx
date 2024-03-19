@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section className="bg-slate-50 dark:bg-blue-900">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div className="container py-16">
         <div className="max-w-screen-md">
           <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white group hover:text-gray-900 dark:hover:text-white after:inline-block after:w-[100px]">
             Hi, I'm Sanita
@@ -16,7 +16,7 @@ function Hero() {
               target="_blank"
               aria-labelledby="GithubLogo"
               title="Github profile"
-              className="inline-flex items-center justify-center px-4 py- text-gray-900 border border-gray-300 rounded-full focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-slate-500 dark:focus:ring-gray-600 transition ease-in-out   hover:scale-110 duration-300"
+              className="inline-flex items-center justify-center px-4 py-4 text-gray-900 border border-gray-300 rounded-full focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-slate-500 dark:focus:ring-gray-600 transition ease-in-out   hover:scale-110 duration-300"
             >
               <svg
                 className="w-6"

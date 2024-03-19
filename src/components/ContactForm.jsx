@@ -1,7 +1,7 @@
 function ContactForm() {
   return (
     <section className="bg-white dark:bg-gray-900">
-      <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+      <div className="container py-16 max-w-screen-md">
         <h2 className="mb-4 text-4xl  font-extrabold text-center text-gray-900 dark:text-white">
           Let's have a chat
         </h2>
