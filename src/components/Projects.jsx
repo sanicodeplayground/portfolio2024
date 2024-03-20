@@ -10,7 +10,8 @@ function Projects() {
 
       {/* projects grid */}
       <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-auto gap-6 lg:gap-y-8 xl:gap-x-8 lg:max-w-6xl pb-20">
-        <li className="ease-in duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
+        
+        <li className="transition ease-in-out duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
             <a href="https://connou.app" target="_blank" title="Connou">
               <img
@@ -57,7 +58,7 @@ function Projects() {
           </div>
         </li>
 
-        <li className="ease-in duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
+        <li className="transition ease-in-out duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
             <a
               href="https://tailwindcss-shop.vercel.app/"
@@ -128,7 +129,7 @@ function Projects() {
           </div>
         </li>
 
-        <li className="ease-in duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
+        <li className="transition ease-in-out duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
             <a
               href="https://sanicodeplayground.github.io/solicitor-website/"
@@ -200,7 +201,7 @@ function Projects() {
           </div>
         </li>
 
-        <li className="ease-in duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
+        <li className="transition ease-in-out duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
             <a
               href="https://sanicodeplayground.github.io/js-dice-game/"
@@ -270,7 +271,7 @@ function Projects() {
           </div>
         </li>
 
-        <li className="ease-in duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
+        <li className="transition ease-in-out duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
           <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
             <a
               href="https://react-newsletter-sign-up-rho.vercel.app/"
