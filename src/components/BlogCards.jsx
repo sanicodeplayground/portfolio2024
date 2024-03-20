@@ -3,6 +3,7 @@ function BlogCards() {
   return (
     <section>
       <div className="container py-16">
+
         <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
           <h2 className="mb-4 text-3xl lg:text-4xl  font-extrabold text-gray-900 dark:text-white">
             Blog
@@ -11,10 +12,11 @@ function BlogCards() {
             Things I've been learning
           </p>
         </div>
+
         <div className="grid gap-8 lg:grid-cols-2">
           <Link
             to="/BlogArticle1"
-            className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-50/70 dark:hover:bg-slate-800/50"
+            className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-slate-50/70 dark:bg-slate-800/50 dark:border-gray-700 dark:hover:border-blue-800 dark:hover:bg-blue-950 transition ease-in-out duration-700"
           >
             <article>
               <div className="flex justify-between items-center mb-5 0">
@@ -58,7 +60,7 @@ function BlogCards() {
           </Link>
           <Link
             to="/BlogArticle2"
-            className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 hover:bg-slate-50/70 dark:hover:bg-slate-800/50"
+            className="p-6 bg-white rounded-lg border border-gray-200 shadow-md hover:bg-slate-50/70 dark:bg-slate-800/50 dark:border-gray-700 dark:hover:border-blue-800 dark:hover:bg-blue-950 transition ease-in-out duration-700"
           >
             <article>
               <div className="flex justify-between items-center mb-5 0">
@@ -101,6 +103,7 @@ function BlogCards() {
             </article>
           </Link>
         </div>
+        
       </div>
     </section>
   );
