@@ -20,6 +20,8 @@ I use the `One Monokai` theme. This is a free theme, similar to Monokai Pro. [Li
 
 `Live Server` to create a live preview for the current project. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
+`Git Graph` to view a Git Graph of your repository, and perform Git actions from the graph. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
 ### Settings
 
 `Auto Save` set to `onFocusChange`, to automatically save files
