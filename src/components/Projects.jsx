@@ -7,14 +7,14 @@ function Projects() {
         </h2>
 
         {/* projects grid */}
-        <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:max-w-6xl pb-20">
+        <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 pb-20">
           <li className="transition ease-in-out duration-700 rounded-3xl bg-slate-50 p-6 dark:bg-slate-800/80 dark:highlight-white/5 hover:bg-slate-100 dark:hover:bg-slate-700/50 ">
             <div className="rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200 dark:bg-slate-700">
               <a href="https://connou.app" target="_blank" title="Connou">
                 <img
                   src="./images/portfolio/portfolioConnou.jpg"
                   alt="Portfolio"
-                  className="w-full h-full transition ease-in-out duration-1000 object-cover hover:scale-150"
+                  className="w-full h-full"
                 />
               </a>
             </div>
@@ -65,7 +65,7 @@ function Projects() {
                 <img
                   src="./images/portfolio/portfolioVerde.jpg"
                   alt="portfolioVerde"
-                  className="w-full h-full transition ease-in-out duration-1000 object-cover hover:scale-150"
+                  className="w-full h-full"
                 />
               </a>
             </div>
@@ -136,7 +136,7 @@ function Projects() {
                 <img
                   src="./images/portfolio/bank-app.jpg"
                   alt="Portfolio Bank Dashboard App"
-                  className="w-full h-full transition ease-in-out duration-1000 object-cover hover:scale-150"
+                  className="w-full h-full"
                 />
               </a>
             </div>
@@ -206,7 +206,7 @@ function Projects() {
                 <img
                   src="./images/portfolio/portfolioGameDice.jpg"
                   alt="Portfolio Dice Game"
-                  className="w-full h-full transition ease-in-out duration-1000 object-cover hover:scale-150"
+                  className="w-full h-full"
                 />
               </a>
             </div>
@@ -276,7 +276,7 @@ function Projects() {
                 <img
                   src="./images/portfolio/portfolioNewsletterValidation.jpg"
                   alt="Portfolio Newsletter Validation"
-                  className="w-full h-full transition ease-in-out duration-1000 object-cover hover:scale-150"
+                  className="w-full h-full"
                 />
               </a>
             </div>
