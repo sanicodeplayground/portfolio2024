@@ -1,8 +1,7 @@
 import ReactMarkdown from "react-markdown";
 
 function BlogArticle() {
-  const markdownContent1 =
-    "'tailwindCSS.rootFontSize': 10  // <- your root font size here";
+  const markdownContent1 = "'tailwindCSS.rootFontSize': 10 ";
 
   return (
     <main className="bg-white dark:bg-gray-900">
