@@ -1,6 +1,6 @@
 # Description
 
-My persona portfolio
+My personal portfolio
 
 ## Table of Contents
 
