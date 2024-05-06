@@ -16,6 +16,14 @@ const projects = [
     description: ['Vanila JavaScript', 'Array methods', 'DOM manipulation']
   },
   {
+    id: 'facts',
+    image: './images/portfolio/portfolioDailyDiscoveries.png',
+    title: 'Daily Discoveries',
+    previewURL: 'https://dailydiscoveries.netlify.app/',  
+    githubURL: 'https://github.com/sanicodeplayground/daily-discoveries',
+    description: ['React', 'Props', 'State management', 'DOM manipulation', 'API Supabase']
+  },
+  {
     id: 'veggie',
     image: './images/portfolio/portfolioVerde.jpg',
     title: 'Veggie Recipes',
