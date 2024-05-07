@@ -1,6 +1,56 @@
 import { Link } from "react-router-dom";
 
+const linksPortfolio = [
+  {
+    id: 1,
+    title: "Projects",
+    URL: "/projects",
+  },
+  {
+    id: 2,
+    title: "Blog",
+    URL: "/blog",
+  },
+  {
+    id: 3,
+    title: "Clone this design",
+    URL: "https://github.com/sanicodeplayground/portfolio2024",
+  },
+];
+
+const linksSocial = [
+  {
+    id: 1,
+    title: "LinkedIn",
+    URL: "https://www.linkedin.com/in/sgailu/",
+  },
+  {
+    id: 2,
+    title: "Github",
+    URL: "https://github.com/sanicodeplayground",
+  },
+];
+
+const footerResources = [
+  {
+    id: 1,
+    title: "Mozilla Developer",
+    URL: "https://developer.mozilla.org/en-US/",
+  },
+  {
+    id: 2,
+    title: "Thinking in React",
+    URL: "https://react.dev/learn/thinking-in-react",
+  },
+  {
+    id: 3,
+    title: "Accessibility check",
+    URL: "https://wave.webaim.org/",
+  },
+];
+
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="my-0 bg-slate-100 sm:p-6 dark:bg-gray-800">
       <div className="container pt-16">
@@ -38,16 +88,13 @@ function Footer() {
                 Links
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="mb-4">
-                  <Link to="/projects" className="hover:underline">
-                    Projects
-                  </Link>
-                </li>
-                <li className="mb-4">
-                  <Link to="/blog" className="hover:underline">
-                    Blog
-                  </Link>
-                </li>
+                {linksPortfolio.map((link) => (
+                  <li key={link.id} className="mb-4">
+                    <Link to={link.URL} className="hover:underline">
+                      {link.title}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </div>
             <div>
@@ -55,33 +102,18 @@ function Footer() {
                 Follow me
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="mb-4">
-                  <a
-                    href="https://www.linkedin.com/in/sgailu/"
-                    className="hover:underline "
-                    target="_blank"
-                  >
-                    LinkedIn
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://github.com/sanicodeplayground"
-                    className="hover:underline"
-                    target="_blank"
-                  >
-                    Github
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="./images/Sanita-Gailuma-2024.pdf"
-                    className="hover:underline "
-                    target="_blank"
-                  >
-                    My Resume
-                  </a>
-                </li>
+                {linksSocial.map((link) => (
+                  <li key={link.id} className="mb-4">
+                    <a
+                      href={link.URL}
+                      className="hover:underline "
+                      target="_blank"
+                      title={link.title}
+                    >
+                      {link.title}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
             <div>
@@ -89,35 +121,18 @@ function Footer() {
                 Resources for Developers
               </h2>
               <ul className="text-gray-600 dark:text-gray-400">
-                <li className="mb-4">
-                  <a
-                    href="https://developer.mozilla.org/en-US/"
-                    className="hover:underline"
-                    target="_blank"
-                  >
-                    Mozilla Developer
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://react.dev/learn/thinking-in-react"
-                    className="hover:underline"
-                    target="_blank"
-                  >
-                    Thinking in React
-                  </a>
-                </li>
-                <li className="mb-4">
-                  <a
-                    href="https://wave.webaim.org/"
-                    className="hover:underline"
-                    target="_blank"
-                    aria-label="Accessibility check resource"
-                    title="Accessibility check resource"
-                  >
-                    Accessibility check
-                  </a>
-                </li>
+                {footerResources.map((link) => (
+                  <li key={link.id} className="mb-4">
+                    <a
+                      href={link.URL}
+                      className="hover:underline"
+                      target="_blank"
+                      title={link.title}
+                    >
+                      {link.title}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
@@ -125,15 +140,8 @@ function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2024{" "}
-            <a
-              href="https://github.com/sanicodeplayground/portfolio2024"
-              className="hover:underline"
-              target="_blank"
-            >
-              Built with React and Tailwind CSS
-            </a>
-            . All Rights Reserved.
+            © {currentYear} Built with React and Tailwind CSS . All Rights
+            Reserved.
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a
