@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 function ContactForm() {
   const form = useRef();
   const [message, setMessage] = useState("");
+  const [isSent, setIsSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -14,12 +15,19 @@ function ContactForm() {
       })
       .then(
         (result) => {
-          console.log("SUCCESS!", result.text);
+          setIsSent(true);
+          setTimeout(() => {
+            setIsSent(false);
+            form.current.reset();
+          }, 5000);
           setMessage("Email successfully sent!");
         },
         (error) => {
-          console.log("FAILED...", error.text);
-          setMessage("Failed to send email. Please try again later.");
+          if (error.text) {
+            setMessage(`Failed to send email. Error: ${error.text}`);
+          } else {
+            setMessage("Failed to send email. Please try again later.");
+          }
         }
       );
   };
@@ -30,6 +38,7 @@ function ContactForm() {
         <h2 className="mb-4 text-4xl  font-extrabold text-center text-gray-900 dark:text-white">
           Let's have a chat
         </h2>
+        {isSent && <p className="text-green-600">Email successfully sent!</p>}
         <form ref={form} onSubmit={sendEmail} className="space-y-8">
           <div>
             <label
@@ -65,7 +74,7 @@ function ContactForm() {
           </div>
           <div className="sm:col-span-2">
             <label
-              htmlFor="message"
+              for="message"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
             >
               Message
