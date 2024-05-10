@@ -1,12 +1,5 @@
 const projects = [
   {
-    id: "connou",
-    image: "./images/portfolio/portfolioConnou.jpg",
-    title: "Connou",
-    previewURL: "https://connou.app",
-    description: ["Frontend Developer", "React", "Next.js", "Tailwind CSS"],
-  },
-  {
     id: "facts",
     image: "./images/portfolio/portfolioDailyDiscoveries.png",
     title: "Daily Discoveries",
@@ -19,6 +12,7 @@ const projects = [
       "DOM manipulation",
       "API Supabase database",
     ],
+    highlight: true,
   },
   {
     id: "dice-game",
