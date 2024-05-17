@@ -1,4 +1,4 @@
-import projects from "./ProjectsData";
+import projects from "./ProjectsData.jsx";
 import ProjectFeatured from "./ProjectFeatured";
 
 function Projects() {
@@ -7,9 +7,10 @@ function Projects() {
   return (
     <section>
       <div className="container py-16">
-        <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
+        <h1 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
           Projects
-        </h2>
+        </h1>
+        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-800" />
         <ProjectFeatured />
         {/* Projects grid */}
         <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2">

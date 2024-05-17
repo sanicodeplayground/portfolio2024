@@ -35,9 +35,10 @@ function ContactForm() {
   return (
     <section>
       <div className="container py-16 max-w-screen-md">
-        <h2 className="mb-4 text-4xl  font-extrabold text-center text-gray-900 dark:text-white">
+        <h1 className="mb-4 text-4xl  font-extrabold text-center text-gray-900 dark:text-white">
           Let's have a chat
-        </h2>
+        </h1>
+        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-800" />
         {isSent && <p className="text-green-600">Email successfully sent!</p>}
         <form ref={form} onSubmit={sendEmail} className="space-y-8">
           <div>

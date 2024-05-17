@@ -51,6 +51,7 @@ const footerResources = [
 
 function Footer() {
   const currentYear = new Date().getFullYear();
+
   return (
     <footer className="my-0 sm:p-6">
       <div className="container pt-16">
