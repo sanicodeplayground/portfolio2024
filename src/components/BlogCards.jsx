@@ -1,47 +1,15 @@
 import { Link } from "react-router-dom";
+import { blogPosts } from "./BlogPosts";
 
 function BlogCards() {
-  const blogPosts = [
-    {
-      id: 1,
-      title: "Install Tailwind CSS in React",
-      description:
-        "Learn how to install Tailwind CSS, a utility-first framework, in your React project using Vite.",
-      link: "/BlogArticle1",
-      date: "1 day ago",
-      category: "Tutorial",
-    },
-    {
-      id: 2,
-      title: "How to change Tailwind CSS base font size",
-      description:
-        "Learn how to change the base font in Tailwind CSS using a plugin.",
-      link: "/BlogArticle2",
-      date: "3 days ago",
-      category: "Tutorial",
-    },
-    {
-      id: 3,
-      title: "Coding Resources",
-      description:
-        "All the resources to build beautiful and performant web applications",
-      link: "/BlogArticle3",
-      date: "4 days ago",
-      category: "Resources",
-    },
-  ];
   return (
     <section>
       <div className="container py-16">
-        <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-          <h2 className="mb-4 text-3xl lg:text-4xl  font-extrabold text-gray-900 dark:text-white">
-            Blog
-          </h2>
-          <p className=" 0 sm:text-xl dark:text-gray-400">
-            Things I've been learning
-          </p>
-        </div>
+        <h1 className="mb-4 text-3xl lg:text-4xl  font-extrabold text-gray-900 dark:text-white">
+          Blog
+        </h1>
 
+        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-800" />
         <div className="grid gap-8 lg:grid-cols-2">
           {blogPosts.map((post) => (
             <Link

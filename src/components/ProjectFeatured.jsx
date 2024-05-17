@@ -1,4 +1,4 @@
-import projects from "./ProjectsData";
+import projects from "./ProjectsData.jsx";
 
 function ProjectFeatured() {
   const featuredProject = projects.find((project) => project.highlight);
