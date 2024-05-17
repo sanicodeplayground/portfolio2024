@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Bio() {
   return (
     <section>
-      <div className="container gap-16 items-center py-16 lg:grid lg:grid-cols-2">
+      <div className="container gap-16 items-center py-16 md:grid md:grid-cols-2">
         <div>
           <h2 className="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
             About me

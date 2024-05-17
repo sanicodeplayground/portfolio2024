@@ -8,10 +8,16 @@ export default {
       center: true,
       padding: "2rem",
     },
-    extend: {},
     fontFamily: {
       sans: ["Plus Jakarta Sans", "sans-serif"],
     },
+    screens: {
+      sm: "620px",
+      md: "768px",
+      lg: "860px",
+      xl: "1120px",
+    },
+    extend: {},
   },
   plugins: [
     plugin(function ({ addBase }) {
