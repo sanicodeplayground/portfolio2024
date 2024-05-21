@@ -44,12 +44,13 @@ function Projects() {
                 <div className="grid">
                   {project.previewURL && (
                     <a
-                      className="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 text-blue-500 bg-blue-100 hover:bg-blue-200 hover:text-blue-600 focus:ring-indigo-500 dark:bg-blue-800  dark:hover:bg-blue-600  dark:focus:ring-slate-500 mt-2 dark:text-slate-300 dark:hover:text-slate-100"
+                      className="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 text-blue-500 bg-blue-100 hover:bg-blue-200 hover:text-blue-600 focus:ring-indigo-500 dark:bg-blue-800 dark:hover:bg-blue-600 dark:focus:ring-slate-500 mt-2 dark:text-slate-300 dark:hover:text-slate-100"
                       href={project.previewURL}
                       target="_blank"
                       title={project.title}
                     >
-                      Preview<span className="sr-only"></span>
+                      {project.previewButton}
+                      <span className="sr-only"></span>
                       <svg
                         className="overflow-visible ml-3 text-blue-500 group-hover:text-indigo-400 dark:text-blue-400 dark:group-hover:text-slate-400"
                         width="3"
@@ -68,7 +69,7 @@ function Projects() {
 
                   {project.githubURL && (
                     <a
-                      className="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 dark:border-slate-700 hover:border-slate-300  focus:ring-indigo-500 dark:bg-slate-800  dark:hover:bg-slate-600  dark:focus:ring-slate-500 mt-4"
+                      className="inline-flex items-center justify-center h-9 rounded-md whitespace-nowrap px-3 focus:outline-none focus:ring-2 border-solid border-2 border-slate-200 dark:border-slate-700 hover:border-slate-300 focus:ring-indigo-500 dark:bg-slate-800 dark:hover:bg-slate-600 dark:focus:ring-slate-500 mt-4"
                       href={project.githubURL}
                       target="_blank"
                       title={project.title}
