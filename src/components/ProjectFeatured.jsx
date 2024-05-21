@@ -37,7 +37,8 @@ function ProjectFeatured() {
                   target="_blank"
                   title={featuredProject.title}
                 >
-                  Preview<span className="sr-only"></span>
+                  {featuredProject.previewButton}
+                  <span className="sr-only"></span>
                   <svg
                     className="overflow-visible ml-3 text-blue-500 group-hover:text-indigo-400 dark:text-blue-400 dark:group-hover:text-slate-400"
                     width="3"

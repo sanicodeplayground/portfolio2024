@@ -3,7 +3,9 @@ const projects = [
     id: "facts",
     image: "./images/portfolio/portfolioDailyDiscoveries.png",
     title: "Daily Discoveries",
-    previewURL: "https://dailydiscoveries.netlify.app/",
+    previewButton: "Case study",
+    previewURL:
+      "https://medium.com/@magiur99/building-a-react-app-281f4e9d342e",
     githubURL: "https://github.com/sanicodeplayground/daily-discoveries",
     description: [
       "React",
@@ -18,32 +20,39 @@ const projects = [
     id: "dice-game",
     image: "./images/portfolio/portfolioGameDice.jpg",
     title: "Dice Game",
+    previewButton: "Preview",
     previewURL: "https://sanicodeplayground.github.io/js-dice-game/",
     githubURL: "https://github.com/sanicodeplayground/js-dice-game",
-    description: ["Vanilla JavaScript", "Game logic", "Array and functions"],
+    description: ["Typescript", "Game logic", "Arrays and functions"],
+    highlight: false,
   },
   {
     id: "bank-dashboard",
     image: "./images/portfolio/bank-app.jpg",
     title: "Bank Dashboard",
+    previewButton: "Preview",
     previewURL: "https://sanicodeplayground.github.io/bank-dashboard",
     githubURL: "https://github.com/sanicodeplayground/bank-dashboard",
     description: ["Vanila JavaScript", "Array methods", "DOM manipulation"],
+    highlight: false,
   },
 
   {
     id: "veggie",
     image: "./images/portfolio/portfolioVerde.jpg",
     title: "Veggie Recipes",
+    previewButton: "Preview",
     previewURL: "https://tailwindcss-shop.vercel.app/",
     githubURL: "https://github.com/sanicodeplayground/tailwindcss",
     description: ["Vercel deployment", "Tailwind v3.4", "JavaScript"],
+    highlight: false,
   },
 
   {
     id: "newsletter-validation",
     image: "./images/portfolio/portfolioNewsletterValidation.jpg",
     title: "Newsletter Validation",
+    previewButton: "Preview",
     previewURL: "https://react-newsletter-sign-up-rho.vercel.app/",
     githubURL:
       "https://github.com/sanicodeplayground/react-newsletter-sign-up-form",
@@ -52,6 +61,7 @@ const projects = [
       "Form input validation",
       "Error handling",
     ],
+    highlight: false,
   },
 ];
 
