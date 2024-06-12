@@ -17,6 +17,17 @@ const projects = [
     highlight: true,
   },
   {
+    id: "facts",
+    image: "./images/portfolio/portfolioAnnie.jpg",
+    title: "Portfolio (Freelance work)",
+    previewButton: "Live",
+    previewURL: "https://anniebookerillustration.com",
+    githubURL: "https://github.com/sanicodeplayground/annie-nextjs-ts",
+    description: ["Next.js", "Typescript"],
+    highlight: false,
+  },
+
+  {
     id: "dice-game",
     image: "./images/portfolio/portfolioGameDice.jpg",
     title: "Dice Game",
@@ -44,7 +55,7 @@ const projects = [
     previewButton: "Preview",
     previewURL: "https://tailwindcss-shop.vercel.app/",
     githubURL: "https://github.com/sanicodeplayground/tailwindcss",
-    description: ["Vercel deployment", "Tailwind v3.4", "JavaScript"],
+    description: ["JavaScript", "Tailwind v3.4"],
     highlight: false,
   },
 
