@@ -11,8 +11,7 @@ function Hero() {
             meaningful products for people.
           </p>
           <p>
-            <span>🚀</span> Currently specialising in Frontend (React /
-            JavaScript)
+            <span>🚀</span> Currently focus in React and JavaScript
           </p>
           <p>
             <span>⚡</span> Frontend Developer at{" "}

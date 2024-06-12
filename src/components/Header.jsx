@@ -79,21 +79,21 @@ function Header() {
                   Home
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/about" className="menu">
                   About
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/projects" className="menu">
                   Projects
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/blog" className="menu">
                   Blog
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contact" className="menu">
                   Contact
